@@ -13,7 +13,7 @@ area = st.number_input(
     value=600.0
 )
 if area<600 or area>3000:
-  st.error("Area should be in between 600 and 3000")
+  st.write("Area should be in between 600 and 3000")
 
 bedroom = st.number_input(
     "Enter the Number of Bedrooms",
@@ -22,7 +22,7 @@ bedroom = st.number_input(
     value=1.0
 )
 if bedroom<1 or bedroom>4:
-  st.error("Number of Bedrooms should be in between 1 and 4")
+  st.write("Number of Bedrooms should be in between 1 and 4")
   
 floor = st.number_input(
     "Enter the Number of Floors",
@@ -31,7 +31,7 @@ floor = st.number_input(
     value=0.0
 )
 if floor<0 or floor>10:
-  st.error("Number of Floors should be in between 0 and 10")
+  st.write("Number of Floors should be in between 0 and 10")
   
 if st.button("Predict"):
 
