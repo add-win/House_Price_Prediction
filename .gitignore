@@ -1,0 +1,26 @@
+# Python bytecode and environment folders
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+ENV/
+env/
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Test and cache files
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Local notebooks and temp files
+.ipynb_checkpoints/
+*.log
